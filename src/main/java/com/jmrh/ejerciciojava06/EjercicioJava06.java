@@ -6,7 +6,7 @@ import java.util.Scanner;
 // Andres Felipe Salas Niño -192164
 // Fabian Acosta - 192168
 
-public class EjercicioJava06 { 
+public class EjercicioJava06 { // 1 --> (114n**4 + 156n**3 + 588**2 + 450n +185)
 
     private static Tablero tablero; //1 + (3n**2+25n+35) = 3n**2+25n+36
     private static Scanner scanner; //1 

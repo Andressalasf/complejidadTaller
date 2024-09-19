@@ -6,13 +6,13 @@ import java.util.Random;
 // Andres Felipe Salas Niño -192164
 // Fabian Acosta - 192168
 
-public class Tablero { //1
+public class Tablero { //1 
     
     public static final int FIL = 4; //1
     public static final int COL = 4; //1
     private final int[][] tablero; //1
     
-    public Tablero() { //1 --> (3n**2+25n+32) + 3 --> O(n**2)
+    public Tablero() { //1 --> (3n**2+25n+36) --> O(n**2)
         tablero = new int[FIL][COL]; //1
         for(int f=0;f<FIL;f++) { // n+1
             for(int c=0;c<COL;c++) { // (n+1)*n --> n**2+n
